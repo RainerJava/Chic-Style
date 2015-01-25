@@ -1,6 +1,6 @@
 package chicstyle.abstraction;
 
-// création de la connexion et du driver
+// création de la connexion et du driver.
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,6 +11,7 @@ import java.sql.Statement;
 
 public class BDChicEtStyle {
 
+	// Démarrage de la connexion
 	private static Connection connexion;
 
 	/**
